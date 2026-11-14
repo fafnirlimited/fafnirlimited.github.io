@@ -131,3 +131,14 @@ footer a:hover { color: var(--text); }
 @media (max-width: 480px) {
   .nav-links a:not(.keep) { display: none; }
 }
+
+/* logo, pricing and notes */
+.brand-logo { width: 38px; height: 38px; border-radius: 50%; display: block; }
+.card.price { display: flex; flex-direction: column; gap: 6px; }
+.card.price .amount { font-size: 26px; font-weight: 750; background: linear-gradient(90deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; background-clip: text; color: transparent; margin: 4px 0 6px; }
+.note { margin-top: 28px; color: var(--muted); }
+.note strong { color: var(--text); }
+.contact-row .value a { color: var(--accent); }
+.contact-row .value a:hover { text-decoration: underline; }
+#how h3 { font-size: 19px; }
+@media (max-width: 860px) { .brand { font-size: 15px; } }
